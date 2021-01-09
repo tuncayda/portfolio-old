@@ -1,0 +1,61 @@
+// Resets
+* {
+    margin: 0;
+    padding: 0; 
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-style:  normal;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+// Variables
+$font-primary:   'Muli', sans-serif;
+$font-secondary: 'Poppins', cursive;
+
+$fs-mega:   7rem;
+$fs-kilo:   4.6rem;
+
+$fs-h1:     3.6rem;
+$fs-h2:     3.2rem;
+$fs-h3:     2.8rem;
+
+$fs-base:   1.6rem;
+$fs-milli:  1.2rem;
+$fs-mikro:  1rem;
+
+$line-height-base:  2.9rem;
+$line-height-small: 1.7rem;
+
+$color-primary:   #585858;
+$color-secondary: #F77062;
+$color-tertiary:  #FE5196;
+$color-white:     #f7f7f7;
+
+// Basic setup
+html {
+    box-sizing: border-box;
+    font-size:  62.5%;
+}
+
+body {
+    font-family: $font-primary;
+    font-size:   $fs-base;
+    color:       $color-primary;
+    line-height: $line-height-base;
+}

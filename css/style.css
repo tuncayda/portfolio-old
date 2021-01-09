@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  color: #585858;
+  line-height: 2.9rem;
+}
+
+/*# sourceMappingURL=style.css.map */
