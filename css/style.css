@@ -29,10 +29,11 @@ html {
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 1.6rem;
   color: #585858;
   line-height: 2.9rem;
+  background-color: #f7f7f7;
 }
 
 /*# sourceMappingURL=style.css.map */

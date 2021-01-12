@@ -25,27 +25,28 @@ ul {
 }
 
 // Variables
-$font-primary:   'Muli', sans-serif;
+$font-primary:   'Mulish', sans-serif;
 $font-secondary: 'Poppins', cursive;
 
-$fs-mega:   7rem;
-$fs-kilo:   4.6rem;
+$fs-xl:      7rem;
+$fs-large:   4.6rem;
+$fs-h1:      3.6rem;
+$fs-h2:      3.2rem;
+$fs-h3:      2.8rem;
+$fs-normal:  1.6rem;
 
-$fs-h1:     3.6rem;
-$fs-h2:     3.2rem;
-$fs-h3:     2.8rem;
+$line-normal:  2.9rem;
+$line-small: 1.7rem;
 
-$fs-base:   1.6rem;
-$fs-milli:  1.2rem;
-$fs-mikro:  1rem;
+$margin-xl: 12rem;
+$margin-large: 4rem;
+$margin-normal: 2.6rem;
 
-$line-height-base:  2.9rem;
-$line-height-small: 1.7rem;
-
-$color-primary:   #585858;
-$color-secondary: #F77062;
-$color-tertiary:  #FE5196;
-$color-white:     #f7f7f7;
+$color-black:  #585858;
+$color-purple: #2F2E41;
+$color-orange: #F77062;
+$color-cerise: #FE5196;
+$color-white:  #f7f7f7;
 
 // Basic setup
 html {
@@ -55,7 +56,8 @@ html {
 
 body {
     font-family: $font-primary;
-    font-size:   $fs-base;
-    color:       $color-primary;
-    line-height: $line-height-base;
+    font-size:   $fs-normal;
+    color:       $color-black;
+    line-height: $line-normal;
+    background-color: $color-white;
 }
