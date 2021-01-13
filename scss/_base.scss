@@ -1,4 +1,32 @@
-// Resets
+/* || Variables  */
+$font-primary:   'Mulish', sans-serif;
+$font-secondary: 'Poppins', cursive;
+
+$fs-h1:     7.2rem;
+$fs-h2:     4.8rem;
+$fs-normal: 1.6rem;
+$fs-small:  1.4rem;
+
+$line-normal: 2.9rem;
+$line-small:  1.7rem;
+
+$spacing-xl:     12rem;
+$spacing-large:  4rem;
+$spacing-normal: 2.6rem;
+$spacing-small:  2rem;
+
+$width-normal: 52rem;
+
+$color-black:  #585858;
+$color-purple: #2F2E41;
+$color-orange: #F77062;
+$color-cerise: #FE5196;
+$color-white:  #f7f7f7;
+$color-hover:  #facaca;
+
+$transition-normal: .3s;
+
+/* || Resets */
 * {
     margin: 0;
     padding: 0; 
@@ -24,31 +52,16 @@ ul {
     list-style: none;
 }
 
-// Variables
-$font-primary:   'Mulish', sans-serif;
-$font-secondary: 'Poppins', cursive;
+img {
+    display: block;
+}
 
-$fs-xl:      7rem;
-$fs-large:   4.6rem;
-$fs-h1:      3.6rem;
-$fs-h2:      3.2rem;
-$fs-h3:      2.8rem;
-$fs-normal:  1.6rem;
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: $fs-h2;
+}
 
-$line-normal:  2.9rem;
-$line-small: 1.7rem;
-
-$margin-xl: 12rem;
-$margin-large: 4rem;
-$margin-normal: 2.6rem;
-
-$color-black:  #585858;
-$color-purple: #2F2E41;
-$color-orange: #F77062;
-$color-cerise: #FE5196;
-$color-white:  #f7f7f7;
-
-// Basic setup
+/* || Basic setup */
 html {
     box-sizing: border-box;
     font-size:  62.5%;
@@ -56,8 +69,14 @@ html {
 
 body {
     font-family: $font-primary;
-    font-size:   $fs-normal;
-    color:       $color-black;
+    font-size: $fs-normal;
+    color: $color-black;
     line-height: $line-normal;
     background-color: $color-white;
+}
+
+/* || Layout */
+.center {
+    padding-left:  $spacing-xl;
+    padding-right: $spacing-xl;
 }

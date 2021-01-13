@@ -1,0 +1,42 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient($color-orange, $color-cerise);
+    color: $color-white;
+
+    &__welcome {
+        margin-top: $spacing-xl;
+
+        &-text {
+            display: inline-block;
+            width: $width-normal;
+            margin-top: $spacing-normal;
+        }
+    }
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: $spacing-normal;
+
+    &__links > ul {
+        display: flex;
+        font-size: $fs-small;
+
+        & > li {
+            transition: all $transition-normal;
+        }
+
+        & > li:hover {
+            color: $color-hover;
+            transition: all $transition-normal;
+        }
+
+        & > li:not(:last-child) {
+            margin-right: $spacing-small;
+        }
+    }
+}
