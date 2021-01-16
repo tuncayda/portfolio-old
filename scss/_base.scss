@@ -10,19 +10,25 @@ $fs-small:  1.4rem;
 $line-normal: 2.9rem;
 $line-small:  1.7rem;
 
-$spacing-xl:     12rem;
-$spacing-large:  4rem;
-$spacing-normal: 2.6rem;
-$spacing-small:  2rem;
+$spacing-3xl:     30rem;
+$spacing-xxl:     12rem;
+$spacing-xl:      8rem;
+$spacing-large:   4rem;
+$spacing-normal:  2.6rem;
+$spacing-small:   2rem;
+$spacing-xs:      .8rem;
 
 $width-normal: 52rem;
 
-$color-black:  #585858;
-$color-purple: #2F2E41;
-$color-orange: #F77062;
-$color-cerise: #FE5196;
-$color-white:  #f7f7f7;
-$color-hover:  #facaca;
+$color-black:       #585858;
+$color-white:       #F7F7F7;
+$color-blue:        #13548F;
+$color-turquoise:   #16B6C0;
+
+$color-hover:       #9bcbf8;
+$color-footer-bg:   #02151E;
+$color-footer-text: #428ACB;
+$color-footer-icon: #88C4E2;
 
 $transition-normal: .3s;
 
@@ -36,11 +42,6 @@ $transition-normal: .3s;
 *::before,
 *::after {
     box-sizing: inherit;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    font-style:  normal;
 }
 
 a, a:hover, a:focus, a:active {
@@ -63,11 +64,15 @@ h2 {
 
 /* || Basic setup */
 html {
+    max-width:  100%;
+    overflow-x: hidden;
     box-sizing: border-box;
     font-size:  62.5%;
 }
 
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     font-family: $font-primary;
     font-size: $fs-normal;
     color: $color-black;
@@ -77,6 +82,6 @@ body {
 
 /* || Layout */
 .center {
-    padding-left:  $spacing-xl;
-    padding-right: $spacing-xl;
+    padding-left:  $spacing-xxl;
+    padding-right: $spacing-xxl;
 }

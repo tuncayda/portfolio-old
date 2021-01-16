@@ -1,11 +1,11 @@
 .header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient($color-orange, $color-cerise);
+    background-image: linear-gradient($color-blue, rgba($color-turquoise, 0));
     color: $color-white;
 
     &__welcome {
-        margin-top: $spacing-xl;
+        margin-top: $spacing-xxl;
 
         &-text {
             display: inline-block;
@@ -37,6 +37,129 @@
 
         & > li:not(:last-child) {
             margin-right: $spacing-small;
+        }
+    }
+}
+
+.main {
+    width: 100vw;
+    min-height: 40rem;
+    margin-bottom: $spacing-3xl;
+
+    & .project {
+        margin-top: $spacing-3xl;
+    }
+}
+
+.project {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__description {
+        width: 45rem;
+
+        &-heading {
+            font-family: 'Poppins', sans-serif;
+            font-size: $fs-h2;
+            background-image: linear-gradient(to right, $color-blue, $color-turquoise);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        &-body {
+            display: block;
+            margin-top: $spacing-xs;
+        }
+
+        &-keys {
+            margin-top: $spacing-xs;
+        }
+
+        &-keys span {
+            display: block;
+        }
+
+        &-case {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 10rem;
+            height: 4rem;
+            border-radius: 30px;
+            border: 1px solid $color-black;
+            margin-top: $spacing-small;
+            transition: all $transition-normal;
+
+            &:hover {
+                transition: all $transition-normal;
+                background-color: rgba($color-black, .05);
+            }
+        }
+    }
+
+    & img {
+        width: 50rem;
+    }
+}
+
+.footer {
+    width: 100vw;
+    height: 28rem;
+    background-color: $color-footer-bg;
+    padding-top: $spacing-normal;
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        &:nth-child(2) {
+            margin-top: $spacing-large;
+        }
+    }
+
+    &__heading {
+        margin-top: $spacing-normal;
+
+        & span {
+            font-family: 'Poppins', sans-serif;
+            font-size: $fs-h2;
+            background-image: linear-gradient(to right, $color-footer-text, $color-turquoise);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &__social {
+        width: 18rem;
+        height: 8rem;
+        border: 1px solid;
+        border-image-source: linear-gradient(to right, $color-footer-text, $color-footer-icon);
+        border-image-slice: 1;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        transition: all $transition-normal;
+
+        & span {
+            font-family: 'Poppins', sans-serif;
+            font-size: $fs-normal;
+            color: $color-white;
+        }
+
+        &:nth-child(2) {
+            margin-left: $spacing-large;
+        }
+
+        &:hover {
+            background-color: rgba($color-hover, .1);
+            transition: all $transition-normal;
+            cursor: pointer;
         }
     }
 }
