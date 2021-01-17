@@ -163,3 +163,32 @@
         }
     }
 }
+
+/* || Playground page */
+.playground {
+    width: 100vw;
+    height: 24rem;
+    background-image: linear-gradient($color-blue, $color-turquoise);
+    color: $color-white;
+}
+
+.concepts {
+    width: 100vw;
+    padding-top: $spacing-large;
+
+    &__description {
+
+        &-heading span {
+            font-family: 'Poppins', sans-serif;
+            font-size: $fs-h2;
+            background-image: linear-gradient(to right, $color-blue, $color-turquoise);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &-body {
+            padding-top: $spacing-xs;
+        }
+    }
+}

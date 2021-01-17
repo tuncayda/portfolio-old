@@ -194,4 +194,28 @@ body {
   cursor: pointer;
 }
 
+/* || Playground page */
+.playground {
+  width: 100vw;
+  height: 24rem;
+  background-image: linear-gradient(#13548F, #16B6C0);
+  color: #F7F7F7;
+}
+
+.concepts {
+  width: 100vw;
+  padding-top: 4rem;
+}
+.concepts__description-heading span {
+  font-family: "Poppins", sans-serif;
+  font-size: 4.8rem;
+  background-image: linear-gradient(to right, #13548F, #16B6C0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.concepts__description-body {
+  padding-top: 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
