@@ -1,7 +1,7 @@
 .header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient($color-blue, rgba($color-turquoise, 0));
+    background-image: linear-gradient(to bottom, $color-blue, rgba($color-turquoise, 0));
     color: $color-white;
 
     &__welcome {
@@ -51,8 +51,9 @@
     }
 }
 
+/* || Project preview */
 .project {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
 
@@ -91,7 +92,7 @@
             border: 1px solid $color-black;
             margin-top: $spacing-small;
             transition: all $transition-normal;
-
+            
             &:hover {
                 transition: all $transition-normal;
                 background-color: rgba($color-black, .05);
@@ -167,8 +168,8 @@
 /* || Playground page */
 .playground {
     width: 100vw;
-    height: 24rem;
-    background-image: linear-gradient($color-blue, $color-turquoise);
+    height: 20rem;
+    background-image: linear-gradient($color-blue, rgba($color-turquoise,1));
     color: $color-white;
 }
 

@@ -45,6 +45,7 @@ body {
   color: #585858;
   line-height: 2.9rem;
   background-color: #F7F7F7;
+  position: relative;
 }
 
 /* || Layout */
@@ -56,7 +57,7 @@ body {
 .header {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(#13548F, rgba(22, 182, 192, 0));
+  background-image: linear-gradient(to bottom, #13548F, rgba(22, 182, 192, 0));
   color: #F7F7F7;
 }
 .header__welcome {
@@ -99,8 +100,9 @@ body {
   margin-top: 30rem;
 }
 
+/* || Project preview */
 .project {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
 }
@@ -197,8 +199,8 @@ body {
 /* || Playground page */
 .playground {
   width: 100vw;
-  height: 24rem;
-  background-image: linear-gradient(#13548F, #16B6C0);
+  height: 20rem;
+  background-image: linear-gradient(#13548F, #16b6c0);
   color: #F7F7F7;
 }
 
